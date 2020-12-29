@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias unproxy="unset {http,https,all}_proxy"
+alias unproxy="unset {http,https,all}"
 alias clashconfig="wget --no-check-certificate -O ~/.config/clash/config.yaml https://dler.cloud/subscribe/rehUEytoAy1q3V9B\?clash\=ss"
 alias toShare="cd /run/media/leo/Software/"
 
