@@ -31,6 +31,9 @@ Plug 'kevinoid/vim-jsonc'
 " Markdown Preview for vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
+" Gruvbox theme
+Plug 'morhetz/gruvbox'
+
 call plug#end()
 
 " ===
@@ -296,3 +299,6 @@ let g:mkdp_filetypes = ['markdown']
 nmap <C-s> <Plug>MarkdownPreview
 nmap <M-s> <Plug>MarkdownPreviewStop
 nmap <C-p> <Plug>MarkdownPreviewToggle
+
+" Grubox theme config
+autocmd vimenter * ++nested colorscheme gruvbox
