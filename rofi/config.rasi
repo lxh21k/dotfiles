@@ -2,7 +2,7 @@ configuration {
 	modi: "drun,window,file-browser,run,ssh";
 /*	width: 50;*/
 /*	lines: 15;*/
-/*	columns: 1;*/
+	columns: 2;
 	font: "mono 14";
 /*	bw: 1;*/
 /*	location: 0;*/
@@ -11,7 +11,7 @@ configuration {
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
 	show-icons: true;
-/*	terminal: "rofi-sensible-terminal";*/
+	terminal: "xfce4-terminal";
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
 /*	run-command: "{cmd}";*/
@@ -19,7 +19,7 @@ configuration {
 /*	run-shell-command: "{terminal} -e {cmd}";*/
 /*	window-command: "wmctrl -i -R {window}";*/
 /*	window-match-fields: "all";*/
-/*	icon-theme: ;*/
+	icon-theme: "Papirus";
 /*	drun-match-fields: "name,generic,exec,categories,keywords";*/
 /*	drun-categories: ;*/
 /*	drun-show-actions: false;*/
