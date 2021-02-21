@@ -1,7 +1,7 @@
 # Backup my dotfiles
 - Backup my application settings in the same directory
-- Sync this files by [symbolic link](https://en.wikipedia.org/wiki/Symbolic_link)
-- Restore this files when my system goes down again
+- Sync these files by [symbolic link](https://en.wikipedia.org/wiki/Symbolic_link)
+- Restore these files when my system goes down again
 
 ## How to backup
 Move dotfiles to this Git repo and link them to their original directory.
