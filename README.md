@@ -21,3 +21,5 @@ Pull this repo from GitHub and link them to the dictories that they should stay 
 ``` shell
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ```
+
+Test lazygit.
