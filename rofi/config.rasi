@@ -19,7 +19,7 @@ configuration {
 /*	run-shell-command: "{terminal} -e {cmd}";*/
 /*	window-command: "wmctrl -i -R {window}";*/
 /*	window-match-fields: "all";*/
-	icon-theme: "Papirus";
+	icon-theme: "Papirus-Light";
 /*	drun-match-fields: "name,generic,exec,categories,keywords";*/
 /*	drun-categories: ;*/
 /*	drun-show-actions: false;*/
@@ -31,7 +31,7 @@ configuration {
 /*	sorting-method: "normal";*/
 /*	case-sensitive: false;*/
 /*	cycle: true;*/
-/*	sidebar-mode: false;*/
+	sidebar-mode: true;
 /*	eh: 1;*/
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
@@ -112,7 +112,7 @@ configuration {
 /*	kb-ellipsize: "Alt+period";*/
 /*	kb-toggle-case-sensitivity: "grave,dead_grave";*/
 /*	kb-toggle-sort: "Alt+grave";*/
-/*	kb-cancel: "Escape,Control+g,Control+bracketleft";*/
+	kb-cancel: "Escape,Control+g,Control+bracketleft,Alt+space";
 /*	kb-custom-1: "Alt+1";*/
 /*	kb-custom-2: "Alt+2";*/
 /*	kb-custom-3: "Alt+3";*/
