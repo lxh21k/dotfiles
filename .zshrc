@@ -102,6 +102,7 @@ alias unproxy="unset {http,https,all}_proxy"
 alias clashconfig="wget --no-check-certificate -O ~/.config/clash/config.yaml https://dler.cloud/subscribe/rehUEytoAy1q3V9B\?clash\=ss"
 alias toShare="cd /run/media/leo/Software/"
 alias ra="ranger"
+alias cl="clash"
 
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 export PATH="$PATH:$GEM_HOME/bin"
