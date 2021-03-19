@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias unproxy="unset {http,https,all}_proxy"
-alias clashconfig="wget --no-check-certificate -O ~/.config/clash/config.yaml https://dler.cloud/subscribe/rehUEytoAy1q3V9B\?clash\=ss"
+alias clashconfig="wget --no-check-certificate -O ~/.config/clash/config.yaml https://dler.cloud/subscribe/XaJTZOLNoxfCe3Y3\?clash\=ss"
 alias toShare="cd /run/media/leo/Software/"
 alias ra="ranger"
 alias cl="clash"
