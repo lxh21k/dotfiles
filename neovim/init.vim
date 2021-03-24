@@ -21,7 +21,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Use release branch (recommend)
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
-
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -30,6 +29,9 @@ Plug 'kevinoid/vim-jsonc'
 
 " Markdown Preview for vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
+" VimTeX
+Plug 'lervag/vimtex'
 
 " Gruvbox theme
 " Plug 'morhetz/gruvbox'
