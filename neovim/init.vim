@@ -32,8 +32,8 @@ Plug 'lervag/vimtex'
 " UltiSnips
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-" Gruvbox theme
-" Plug 'morhetz/gruvbox'
+" Barbaric
+Plug 'rlue/vim-barbaric'
 
 call plug#end()
 
