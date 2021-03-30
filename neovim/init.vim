@@ -35,6 +35,8 @@ Plug 'honza/vim-snippets'
 " Barbaric
 Plug 'rlue/vim-barbaric'
 
+Plug 'junegunn/goyo.vim'
+
 call plug#end()
 
 " ===
