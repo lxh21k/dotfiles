@@ -23,16 +23,15 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
 " JSON with Comments for Vim
 Plug 'kevinoid/vim-jsonc'
-
 " Markdown Preview for vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-
 " VimTeX
 Plug 'lervag/vimtex'
-
+" UltiSnips
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 " Gruvbox theme
 " Plug 'morhetz/gruvbox'
 
@@ -302,5 +301,22 @@ nmap <C-s> <Plug>MarkdownPreview
 nmap <M-s> <Plug>MarkdownPreviewStop
 nmap <C-p> <Plug>MarkdownPreviewToggle
 
-" Grubox theme config
+" ===
+" === Grubox theme config
+" ===
 " autocmd vimenter * ++nested colorscheme gruvbox
+
+" ===
+" === VimTeX config
+" ===
+let g:vimtex_compiler_latexmk_engines = {
+    \ '_'                : '-xelatex',
+    \}
+let g:vimtex_view_general_viewer = 'zathura'
+let g:vimtex_view_method = 'zathura'
+let g:vimtex_compiler_progname = 'nvr'
+
+" ===
+" === UltiSnips config
+" ===
+let g:UltiSnipsExpandTrigger="<C-u>"
