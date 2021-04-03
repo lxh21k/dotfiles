@@ -103,6 +103,7 @@ alias clashconfig="wget --no-check-certificate -O ~/.config/clash/config.yaml ht
 alias toShare="cd /run/media/leo/Software/"
 alias ra="ranger"
 alias cl="clash"
+alias lz="lazygit"
 
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 export PATH="$PATH:$GEM_HOME/bin"
