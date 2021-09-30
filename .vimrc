@@ -1,13 +1,37 @@
-" ===
-" === Editor behavior
-" ===
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
+"               
+"               ██╗   ██╗██╗███╗   ███╗██████╗  ██████╗
+"               ██║   ██║██║████╗ ████║██╔══██╗██╔════╝
+"               ██║   ██║██║██╔████╔██║██████╔╝██║     
+"               ╚██╗ ██╔╝██║██║╚██╔╝██║██╔══██╗██║     
+"                ╚████╔╝ ██║██║ ╚═╝ ██║██║  ██║╚██████╗
+"                 ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
+"               
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""    
 
-set number
-set relativenumber
-set tabstop=4
-" set autoindent
+" Turn syntax highlighting on.
 syntax on
 
+" Add numbers to each line on the left-hand side.
+set number
+set relativenumber
+
+" Highlight cursor line underneath the cursor horizontally.
+" set cursorline
+
+" Highlight cursor line underneath the cursor vertically.
+" set cursorcolumn
+
+" Set shift width to 4 spaces.
+set shiftwidth=4
+
+" Set tab width to 4 columns.
+set tabstop=4
+
+" Use space characters instead of tabs.
+set expandtab
+set autoindent
+set softtabstop=0
 
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
