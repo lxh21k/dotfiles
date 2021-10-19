@@ -45,7 +45,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " Barbaric
-Plug 'rlue/vim-barbaric'
+" Plug 'rlue/vim-barbaric'
 
 " Initialize plugin system
 call plug#end()
