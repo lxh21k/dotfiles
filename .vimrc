@@ -33,6 +33,8 @@ set expandtab
 set autoindent
 set softtabstop=0
 
+set hlsearch
+
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
