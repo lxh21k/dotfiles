@@ -23,10 +23,10 @@ set relativenumber
 " set cursorcolumn
 
 " Set shift width to 4 spaces.
-set shiftwidth=4
+set shiftwidth=2
 
 " Set tab width to 4 columns.
-set tabstop=4
+set tabstop=2
 
 " Use space characters instead of tabs.
 set expandtab
@@ -34,6 +34,15 @@ set autoindent
 set softtabstop=0
 
 set hlsearch
+set wildmenu
+
+" set rtp+=/opt/homebrew/opt/fzf
+
+autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=0
+autocmd FileType javascript setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=0
+
+" File browsing
+let g:netrw_liststyle=3     " tree view
 
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
@@ -60,12 +69,17 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 " Barbaric
 " Plug 'rlue/vim-barbaric'
 
+" fzf.vim
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 " Initialize plugin system
 call plug#end()
 
 " Automatically populate the `g:airline_symbols` dictionary with the powerline
 " symbols.
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
